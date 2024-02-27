@@ -178,7 +178,9 @@ export const useApi = () => {
 
   // List local models
   const listLocalModels = async (): Promise<ListLocalModelsResponse> => {
-    const response = await fetch(getApiUrl('/tags'), {
+    let url = getApiUrl('/tags');
+    console.log(url);
+    const response = await fetch(url, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
