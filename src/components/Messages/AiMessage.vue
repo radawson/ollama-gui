@@ -14,7 +14,7 @@ const { message } = defineProps<Props>()
   <div class="flex rounded-xl bg-zinc-50 px-2 py-6 sm:px-4 dark:bg-zinc-900">
     <img
       class="mr-2 flex h-10 w-10 rounded-full border border-gray-200 bg-white object-contain sm:mr-4"
-      src="../../assets/logo.png"
+      src="../../assets/aivatar.png"
     />
 
     <div class="flex max-w-3xl items-center rounded-xl">
