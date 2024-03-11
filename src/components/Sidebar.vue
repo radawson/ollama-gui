@@ -7,7 +7,7 @@ import {
   IconTrashX,
   IconUserCircle,
 } from '@tabler/icons-vue'
-import { isDarkMode, toggleSettingsPanel } from '../services/appConfig.ts'
+import { isDarkMode, toggleSettingsPanel, toggleSideBar } from '../services/appConfig.ts'
 import { useChats } from '../services/chat.ts'
 import { useAI } from '../services/useAI.ts'
 
@@ -92,7 +92,7 @@ const onNewChat = () => {
         </div>
       </div>
     </div>
-    <button class="sm:hidden" @click="toggleSidebar">
+    <button class="sm:hidden" @click="toggleSideBar">
       <!-- Icon to open sidebar on small screens -->
     </button>
   </aside>
